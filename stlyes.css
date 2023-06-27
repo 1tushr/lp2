@@ -181,8 +181,8 @@ body {
 }
 
 .use-on-any-device img {
-  width: 80%; /* Increase image width as needed */
-  max-width: 600px; /* Increase max-width as needed */
+  width: 80%;    
+  max-width: 600px;    
   padding: 2rem;
 }
 
@@ -190,44 +190,44 @@ body {
   display: flex;
   justify-content:space-evenly;
   align-items: center;
-  margin-bottom: 4rem; /* Adjust margin as needed */
+  margin-bottom: 4rem;    
 }
 
 .feature {
   text-align: center;
-  max-width: 300px; /* Adjust max-width as needed */
+  max-width: 300px;  
 }
 
 .feature img {
-  width: 100%; /* Adjust image width as needed */
-  max-width: 300px; /* Adjust max-width as needed */
+  width: 100%;    
+  max-width: 300px;  
   padding: 1rem;
 }
 
 .feature h3 {
-  font-size: 2rem; /* Adjust font size as needed */
-  margin-top: 1rem; /* Adjust margin as needed */
-  white-space: nowrap; /* Prevent line break within h3 element */
-  overflow: hidden; /* Hide any overflowing text */
-  text-overflow: ellipsis; /* Add ellipsis (...) for truncated text */
+  font-size: 2rem; 
+  margin-top: 1rem;    
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
 }
 
 .feature p {
-  font-size: 1.4rem; /* Adjust font size as needed */
-  margin-top: 0.5rem; /* Adjust margin as needed */
-  width: 100%; /* Occupy full width within the container */
+  font-size: 1.4rem; 
+  margin-top: 0.5rem;    
+  width: 100%; 
 }
 
 .feature h3 span {
   display: inline-block;
   vertical-align: middle;
   transform: translateY(-50%);
-  margin-left: 0.25rem; /* Adjust margin as needed */
+  margin-left: 0.25rem;    
 }
 
 .feature h3 span:last-child {
   display: block;
-  margin-top: 0.5rem; /* Adjust margin as needed */
+  margin-top: 0.5rem;    
 }
 
 
@@ -386,9 +386,23 @@ body {
   .features .feature {
     width: 100%;
   }
+  footer {
+    width: 48rem;
+  }
 }
 
+footer {
+  background-color: #FDF3F4;
+  padding: 20px;
+  text-align: center;
+}
 
+footer img {
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  max-width: 100%;
+  height: auto;
+}
 
 /* .container1{
   height: 117vh;
