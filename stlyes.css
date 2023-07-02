@@ -82,7 +82,7 @@ body {
   background-color: #0f8860;
   color: white;
   font-size: 1.5rem;
-  margin-left:7rem ;
+  margin-left: 7rem;
 }
 
 .secure-info {
@@ -94,7 +94,6 @@ body {
   max-width: 500px;
   text-align: center;
   margin-left: 5rem;
-
 }
 
 .secure-info h2 {
@@ -112,37 +111,36 @@ body {
   height: 56vh;
 } */
 
-
 .safe-internet {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 90vh;
-  margin-top: 5vh;     
-  margin-bottom: 5vh;     
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 .safe-image img {
   width: 90%;
-  max-width: 600px;     
+  max-width: 600px;
   padding: 2rem;
 }
 
 .safe-internet-info {
   text-align: left;
   margin-right: 2rem;
-  max-width: 500px;     
+  max-width: 500px;
 }
 
 .safe-internet h2 {
-  font-size: 3rem;     
-  margin-bottom: 1.5rem;     
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .safe-internet p {
-  font-size: 1.4rem;     
-  margin-bottom: 1.5rem;     
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
 }
 
 .use-on-any-device {
@@ -150,91 +148,100 @@ body {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4rem;     
+  margin-bottom: 4rem;
 }
 
 .use-info {
   text-align: left;
-  margin-right: 2rem;     
-  max-width: 500px; 
+  margin-right: 2rem;
+  max-width: 500px;
 }
 
 .use-on-any-device h2 {
-  font-size: 2.5rem;     
-  margin-bottom: 1rem;     
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .use-on-any-device p {
-  font-size: 1.4rem;     
-  margin-bottom: 1rem;     
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .use-on-any-device button {
-  width: 14rem;     
-  height: 3.5rem;     
+  width: 14rem;
+  height: 3.5rem;
   border-radius: 2rem;
   border-style: none;
   background-color: #0f8860;
   color: white;
-  font-size: 1.6rem;     
-  margin-top: 1rem;     
+  font-size: 1.6rem;
+  margin-top: 1rem;
 }
 
 .use-on-any-device img {
-  width: 80%;    
-  max-width: 600px;    
+  width: 80%;
+  max-width: 600px;
   padding: 2rem;
 }
 
 .features {
   display: flex;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 4rem;    
+  margin-bottom: 4rem;
 }
 
 .feature {
   text-align: center;
-  max-width: 300px;  
+  max-width: 300px;
 }
 
 .feature img {
-  width: 100%;    
-  max-width: 300px;  
+  width: 100%;
+  max-width: 300px;
   padding: 1rem;
 }
 
 .feature h3 {
-  font-size: 2rem; 
-  margin-top: 1rem;    
-  white-space: nowrap; 
-  overflow: hidden; 
-  text-overflow: ellipsis; 
+  font-size: 2rem;
+  margin-top: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .feature p {
-  font-size: 1.4rem; 
-  margin-top: 0.5rem;    
-  width: 100%; 
+  font-size: 1.4rem;
+  margin-top: 0.5rem;
+  width: 100%;
 }
 
 .feature h3 span {
   display: inline-block;
   vertical-align: middle;
   transform: translateY(-50%);
-  margin-left: 0.25rem;    
+  margin-left: 0.25rem;
 }
 
 .feature h3 span:last-child {
   display: block;
-  margin-top: 0.5rem;    
+  margin-top: 0.5rem;
 }
 
+footer {
+  background-color: #fdf3f4;
+  padding: 20px;
+  text-align: center;
+}
 
-
+footer img {
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
+  max-width: 100%;
+  height: auto;
+}
 
 @media (max-width: 768px) {
- 
   /* body {
     overflow: hidden;
   } */
@@ -243,7 +250,7 @@ body {
     background-size: 100%, auto;
     padding: 1rem;
     width: 48rem;
-    height: 111vh;
+    height: 61rem;
   }
 
   .hero-section .logo {
@@ -270,16 +277,21 @@ body {
     font-size: 1.2rem;
     margin: 1rem;
   }
-.container{
-  margin-left: 23rem;;
-}
+  .container {
+    margin-left: 23rem;
+  }
   .security {
     flex-direction: column;
     align-items: center;
+    margin: -3rem;
   }
-
+  .security button {
+    font-size: 1.5rem;
+    margin-left: 6rem;
+  }
   .security img {
     margin-left: 5rem;
+    margin-top: 12rem;
   }
 
   .secure-info {
@@ -287,23 +299,27 @@ body {
   }
 
   .secure-info h2 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    width: 30rem;
   }
 
   .secure-info p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .safe-internet {
     flex-direction: column;
     height: auto;
     margin-left: 6rem;
     width: 40rem;
+    margin-top: 20rem;
+    margin-bottom: 5vh;
   }
 
   .safe-image img {
     width: 80%;
     max-width: 400px;
     margin-bottom: 2rem;
+    margin-left: 2rem;
   }
 
   .safe-internet-info {
@@ -318,45 +334,47 @@ body {
   }
 
   .safe-internet p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
   }
   .use-on-any-device {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;     
-    
+    margin-bottom: 2rem;
+
     margin-left: 9rem;
     width: 28rem;
-
   }
 
   .use-info {
     text-align: center;
     margin-right: 0;
-    margin-bottom: 2rem;     
+    margin-bottom: 2rem;
     max-width: 100%;
   }
 
   .use-on-any-device h2 {
-    font-size: 2rem;     
+    font-size: 2rem;
   }
 
   .use-on-any-device p {
-    font-size: 1.2rem;     
+    font-size: 1.5rem;
+    width: 32rem;;
   }
 
   .use-on-any-device button {
-    width: 12rem;     
-    height: 3rem;     
-    font-size: 1.4rem;     
-    margin-top: 1.5rem;     
-  }
+    width: 277px;
+    height: 4rem;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+}
+  
 
   .use-on-any-device img {
-    width: 90%;   
-    max-width: 400px; 
+    width: 90%;
+    max-width: 400px;
     padding: 1rem;
   }
   /* .features{
@@ -391,17 +409,71 @@ body {
   }
 }
 
-footer {
-  background-color: #FDF3F4;
-  padding: 20px;
-  text-align: center;
-}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero-section,
+  .security,
+  .safe-internet,
+  .container
+  .use-on-any-device,
+  .hero-section {
+    background-size: 100%, auto;
+    padding: 1rem;
+   
+    height: 61rem;
+  }
 
-footer img {
-  display: block;
-  margin: 0 auto; /* Centers the image horizontally */
-  max-width: 100%;
-  height: auto;
+  .hero-section h1 {
+    font-size: 3rem; 
+  }
+  .container{
+    margin-left: 2rem;
+    margin-top: 15rem;
+  }
+  .container1{
+    margin-top: -20rem;
+  }
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%; 
+    margin: 0 auto; 
+  }
+
+  .hero-section h1 {
+    font-size: 3rem; 
+  }
+
+  .security img{
+    width: 80%;
+    max-width: 400px;
+    margin: 2rem 0;
+    margin-left: 7rem;
+  }
+  .safe-image img,
+  .use-on-any-device img{
+    margin-left: 4rem;
+  }
+  .use-on-any-device button{
+    margin-left: 7rem;
+  }
+  .use-on-any-device p{
+    width: 36rem;
+  }
+  .use-on-any-device h2{
+    margin-left: 5rem;
+  }
+ .features{
+  margin-left: 6rem;
+  margin-bottom: 3rem;
+ }
+  .feature img {
+    width: 100%; 
+    max-width: 400px;
+    padding: 1rem; 
+  }
+  
 }
 
 /* .container1{
@@ -409,7 +481,3 @@ footer img {
   margin-left: 21rem;
   flex-direction: column;
 } */
-
-
-
-  
